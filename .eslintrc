@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script"
+  },
+  "env": {
+    "mocha": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "indent": [2, 2],
+    "quotes": [2, "single"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "comma-dangle": [2, "never"],
+    "strict": [2, "global"],
+    "no-console": [0],
+    "max-len": [2, 140, 2]
+  }
+}

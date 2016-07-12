@@ -1,0 +1,49 @@
+{
+  "name": "url-mask",
+  "version": "1.0.0",
+  "description": "Utility for masking url userinfo",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha 'test/**/*.test.js'",
+    "cover": "istanbul cover _mocha 'test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanzim/url-mask.git"
+  },
+  "keywords": [
+    "url",
+    "mask",
+    "password",
+    "secret",
+    "utility",
+    "masking"
+  ],
+  "author": "Tanzim Husain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanzim/url-mask/issues"
+  },
+  "homepage": "https://github.com/tanzim/url-mask#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash.merge": "^4.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.5",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "precommit-hook": "^3.0.0"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
