@@ -45,5 +45,8 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "engines": {
+    "node" : ">= 4.0.0"
+  }
 }
