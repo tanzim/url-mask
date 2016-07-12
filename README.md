@@ -21,7 +21,7 @@ console.log(`masked url using defaults: ${masked}`);
 
 //
 // Additional options can be specified not to mask the username
-// or user a different masking character
+// or use a different masking character
 //
 masked = urlmask(url, { maskUsername: false });
 assert.equal('http://user:*****@github.com/', masked);
