@@ -1,6 +1,6 @@
 {
   "name": "url-mask",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility for masking url userinfo",
   "main": "index.js",
   "scripts": {
