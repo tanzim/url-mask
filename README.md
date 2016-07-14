@@ -13,7 +13,7 @@ const urlmask = require('url-mask');
 const url = 'http://user:secret@github.com/';
 
 //
-// By default both username and password is masked with *
+// By default both username and password are masked with *
 //
 let masked = urlmask(url);
 assert.equal('http://*****:*****@github.com/', masked);
