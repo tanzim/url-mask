@@ -1,6 +1,11 @@
 # url-mask
 Utility for masking url userinfo
 
+[![npm version](https://badge.fury.io/js/url-mask.svg)](https://badge.fury.io/js/url-mask)
+[![Dependencies](https://david-dm.org/tanzim/url-mask.svg)](https://github.com/tanzim/url-mask)
+[![Build Status](https://travis-ci.org/tanzim/url-mask.svg?branch=master)](https://travis-ci.org/tanzim/url-mask)
+[![Coverage Status](https://coveralls.io/repos/github/tanzim/url-mask/badge.svg?branch=master)](https://coveralls.io/github/tanzim/url-mask?branch=master)
+
 ## Getting Started
 ```
 $ npm install url-mask
