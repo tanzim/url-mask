@@ -12,8 +12,8 @@ $ npm install url-mask
 ```
 
 ## Usage
-```
-assert = require('assert');
+```javascript
+const assert = require('assert');
 const urlmask = require('url-mask');
 const url = 'http://user:secret@github.com/';
 
